@@ -48,22 +48,22 @@
 
             if ( curr.position.y < 0 ) {
                 curr.isGoingDown = true;
-                changeBoxColor( curr );
+                // changeBoxColor( curr );
             }
 
             if ( curr.position.x < 0 ) {
                 curr.isGoingRight = true;
-                changeBoxColor( curr );
+                // changeBoxColor( curr );
             }
 
             if ( curr.position.y > boxEdgeBottom ) {
                 curr.isGoingDown = false;
-                changeBoxColor( curr );
+                // changeBoxColor( curr );
             }
 
             if ( curr.position.x > boxEdgeRight ) {
                 curr.isGoingRight = false;
-                changeBoxColor( curr );
+                // changeBoxColor( curr );
             }
         }
 
